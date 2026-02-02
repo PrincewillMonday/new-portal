@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>javascript</title>
+    <script type="text/javascript">
+        function message()
+        {
+        alert("This alert box was called with the onload event");
+        }
+    </script>
 </head>
-<body>
-    <button onclick="clickHandler()">Click</button>
+<body onload="message ()">
 
-    <script src="index.js"></script>
+    <!-- <script src="index.js"></script> -->
+     <!-- <button>click Me</button> -->
 </body>
 </html>
