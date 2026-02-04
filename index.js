@@ -1,8 +1,13 @@
-// let CarName="Toyota" // Pascal Case
-// let carName ="Corolla" // Camel Case
-// let car_name= "Honda" // Snake Case
-// let carname= "Lexus" // Kebab
+snack = "Moi Moi"
 
-let y = 5
-let x = --y
-console.log(x)
+if (snack == "Burger") {
+    console.log (`We have ${snack}`)
+} else if (snack == "Egg Row") {
+    console.log (`We have ${snack}`)
+} else if (snack == "Meat Pi") {
+    console.log (`We have ${snack}`)
+} else if (snack == "Moi Moi") {
+    console.log (`We have ${snack}`)
+}else {
+    console.log (`We do not have ${snack}`)
+}
