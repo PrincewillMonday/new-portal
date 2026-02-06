@@ -5,14 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>javascript</title>
-    <script type="text/javascript">
-        function message()
-        {
-        alert("This alert box was called with the onload event");
-        }
-    </script>
 </head>
 <body onload="message ()">
+
+    <script type="text/javascript">
+var d=new Date();
+var theDay=d.getDay();
+switch (theDay)
+{
+    case 5:
+    document.write("Finally Friday");
+    break;
+    case 6:
+    document.write("Super Saturday");
+    break;
+    case 0:
+    document.write("Sleepy Sunday");
+    break;
+    default:
+    document.write("I'm looking forward to this weekend!");
+}
+    </script>
 
     <!-- <script src="index.js"></script> -->
      <!-- <button>click Me  </button> -->
