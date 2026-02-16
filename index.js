@@ -1,40 +1,31 @@
-// snack = "Moi Moi"
+// let studentName = "John Doe"
+// let age = 16
+// let course = "Medicine"
+// let graduation = true
 
-// if (snack == "Burger") {
-//     console.log (`We have ${snack}`)
-// } else if (snack == "Egg Row") {
-//     console.log (`We have ${snack}`)
-// } else if (snack == "Meat Pi") {
-//     console.log (`We have ${snack}`)
-// } else if (snack == "Moi Moi") {
-//     console.log (`We have ${snack}`)
-// }else {
-//     console.log (`We do not have ${snack}`)
-// }
+// console.log(`My name is ${studentName}, I am ${age} years old. I studied ${course} in school and the information is ${graduation} that I am a gradute.`)
 
-// let movieAge = 40
+// Area of a Rectangle
+// let len = 20
+// let wid = 70.5
+// let area = len*wid
+// console.log(area)
 
-// if (movieAge<18) {
-//     console.log(`You cannot watch this movie, you are ${movieAge} years old and you need parental control`)
-// } else if (movieAge==18){
-//     console.log(`You are ${movieAge} years old and you have access to some certain movies`)
-// }
-// else {
-//     console.log(`You are ${movieAge} years old and you can watch any movie of your choice`)
-// }
+// Temperature converter
+// let c = 20
+// let f = (c*9/5)+32
+// console.log(f)
 
-// let courseAge = 6
+score = 12
 
-// if (courseAge<=4) {
-//     console.log(`You are ${courseAge} yeard old and you are too young to learn coding`)
-// }else if (courseAge==5 || courseAge<=8) {
-//     console.log(`You are ${courseAge} years old and you can now learn Scratch Programming`)
-// }
-
-let num = 5
-
-if (num%2 == 0) {
-    console.log(`This is an even number. ${num}`)
+if (score>=70) {
+    console.log(`Grace A and your score is ${score}`)
+} else if (score >=60 && score<=69) {
+    console.log(`Grade B and your score is ${score}`)
+} else if (score>=50 && score<=59) {
+    console.log(`Grace C and your score is ${score}`)
+}else if (score>=40 && score<=49) {
+    console.log(`Grace D and your score is ${score}`)
 }else{
-    console.log(`This is an odd number. ${num}`)
+    console.log(`Grace F and your score is ${score}`)
 }
